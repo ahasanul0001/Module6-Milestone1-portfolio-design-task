@@ -4,11 +4,19 @@
 }
 header {
     background-color: rgba(255, 248, 243, 1);
-    /* height: 787px; */
+    height: 787px;
     padding-top: 50px;
-    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: relative;
+}
+.firstclass .developerImg{
     background-repeat: no-repeat;
     background-position: left center , bottom right;
+    position: absolute;
+    left: 1.6%;
+    top: 4%;
 }
 
 header > nav{
@@ -16,8 +24,8 @@ header > nav{
     /* height: 64px; */
     display: flex;
     justify-content: space-between;
-    margin-left: 170px;
-    margin-right: 170px;
+    margin-left: 210px;
+    margin-right: 200px;
 }
 nav>p{
     font-size: 45px;
@@ -97,7 +105,7 @@ nav .sublink > li > a{
 .body .content{
     width: 700px;
     height: 356px;
-    margin-left: 170px;
+    margin-left: 210px;
     margin-top: 180px;
 }
 
@@ -115,4 +123,12 @@ nav .sublink > li > a{
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
+}
+.body .myInfo{
+    width: 560px;
+}
+.firstclass .body .image{
+    width: 584px;
+    height: 676px;
+    margin-top: 47px;
 }
